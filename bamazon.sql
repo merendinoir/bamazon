@@ -14,8 +14,8 @@ CREATE TABLE products (
 INSERT INTO products(item,department,price,quantity)
 VALUES ("Expresso", "Grocery", 6.00, 10),
 ("Stovetop Expresso Maker", "Grocery", 45.00, 5),
-("Mulino Cookies", "Grocery", 10.00, 10),
-("Dr.Bronner's Castille Soap, 32 oz", "Beauty", 15.00, 10),
+("Cookies", "Grocery", 10.00, 10),
+("Soap", "Beauty", 15.00, 10),
 ("Dog Food", "Pet Supplies", 75.00, 5),
 ("YETI Rambler", "Sports & Outdoors", 20.00, 8),
 ("Cat Food", "Pet Supplies", 25.00, 5),
