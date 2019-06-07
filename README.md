@@ -1,6 +1,10 @@
 # bamazon
 week 12 homework
 
+Here's a sample video:
+
+![Sample Video](bamazonDemo.mov)
+
 # Node.js & MySQL
 
 Create an Amazon-like storefront using MySQL. The app will take in orders from customers and deplete stock from the store's inventory. 
