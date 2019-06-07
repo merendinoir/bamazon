@@ -51,7 +51,7 @@ var shopping = function (res) {
                 } 
                 }).then(function (answer) {
                     if ((res[id].quantity - answer.quantity) > 0) {
-                        connection.query("UPDATE products SET stock_quantity='" + (res[id].quantity - answer.quantity) + "'WHERE product_name='" + product + "'", function (err, res2) {
+                        connection.query("UPDATE products SET quantity='" + (res[id].quantity - answer.quantity) + "'WHERE item='" + product + "'", function (err, res2) {
                             console.log("Product bought!");
 
                             displayTable();
